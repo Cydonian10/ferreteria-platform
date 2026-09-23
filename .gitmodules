@@ -1,0 +1,6 @@
+[submodule "api-ferreteria"]
+	path = api-ferreteria
+	url = git@github.com:Cydonian10/api-ferreteria.git
+[submodule "front-ferretria"]
+	path = front-ferretria
+	url = git@github.com:Cydonian10/front-ferreteria.git

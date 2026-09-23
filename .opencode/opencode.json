@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "references": {
+    "backend": {
+      "path": "../api-ferreteria",
+      "description": "Backend de la ferretería, construido con NestJS 12."
+    },
+    "frontend": {
+      "path": "../front-ferretria",
+      "description": "Frontend de la ferretería, construido con Angular 22."
+    }
+  }
+}
