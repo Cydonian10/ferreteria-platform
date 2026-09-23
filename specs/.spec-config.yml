@@ -1,0 +1,15 @@
+# spec workflow configuration
+#
+# AutoCreateBranch — controls whether /spec-impl creates/switches branches automatically
+# across the root and declared submodules after preflight.
+#   true  → proceed without a branch confirmation
+#   false → ask once before changing any branch
+AutoCreateBranch: false
+
+# AutoCreateSubmoduleBranches — include the initialized submodules listed in each spec's
+# "Repositorios afectados" header. If false, align those branches manually before coding.
+AutoCreateSubmoduleBranches: true
+
+# BranchStrategy — "group" shares feature/<group> across specs in a subfolder;
+# "spec" creates spec-NN-slug per spec. Default: spec.
+BranchStrategy: group
