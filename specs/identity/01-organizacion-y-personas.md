@@ -1,6 +1,6 @@
 # SPEC 01 — Organización y personas
 
-> **Estado:** Aprobado
+> **Estado:** Implementado
 > **Depende de:** Ninguna
 > **Repositorios afectados:** `api-ferreteria`
 > **Fecha:** 2026-09-23
